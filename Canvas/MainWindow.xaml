@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:Canvas"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <Rectangle Canvas.Left="25" Canvas.Top="25"
+                   Width="50" Height="40" Fill="Red"/>
+        <Rectangle Canvas.Left ="100" Canvas.Top="25"
+                   Width="50" Height="40" Fill="Orange"/>
+        <Rectangle Canvas.Left="175" Canvas.Top="25"
+                   Width="50" Height="40" Fill="Yellow"/>
+        <Rectangle Canvas.Left="50" Canvas.Top="50"
+                   Width="50" Height="40" Fill="Green"/>
+        <Rectangle Canvas.Left="125" Canvas.Top="50"
+                   Width="50" Height="40" Fill="Blue"/>
+        <Ellipse Canvas.Left="85" Canvas.Top="75"
+                 Width="50" Height="40" Fill="BlueViolet"/>
+    </Canvas>
 </Window>
